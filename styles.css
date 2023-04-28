@@ -245,7 +245,7 @@ left: 0;
   flex-direction: column;
 
 }
- #menu > input{
+ #menu div:last-child{
   height: 30px;
   width: fit-content;
   border: none;
@@ -316,7 +316,7 @@ header a:hover{
   transition: .3s;
   
 }
-header input{
+header: last-child{
   height: 30px;
   width: 10%;
   border: none;
@@ -677,7 +677,7 @@ footer h4{
   #svg{
     display: none;
   }
-  #here input{
+  #here: last-child{
     display: none;
   }
   #here a {
