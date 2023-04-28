@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Poppins);
-@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+@import url(http://fonts.googleapis.com/css?family= Arvo);
 :root {
   --yellow:#FFC709;
   --blue:#1736F5;
@@ -8,7 +8,7 @@
   --white:whitesmoke;
   --red:#FF4C09;
   --background:#E7F5FF ;
-  --font1:Berkshire Swash;
+  --font1:Arvo;
   --font2:Poppins;
   --uib-size: 4rem;
   --uib-speed: .9s;
@@ -374,7 +374,7 @@ main #firstSection{
 }
 #firstSection h1{
   font-size: 400%;
-  font-family: Berkshire Swash;
+  font-family:  Arvo;
   margin: 10px 0px 20px 0px  ;
 }
 #firstSection h3{
