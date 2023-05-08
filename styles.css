@@ -692,7 +692,7 @@ footer h4{
   }
   #menu{
     display: flex;
-    top: -3%;
+    top: -5%;
     transition-duration: .8s;
     transition-delay: 0s;
     height:fit-content;
