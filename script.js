@@ -54,6 +54,6 @@ function openMenu(){
 }
 
 function closeMenu(){
-  document.getElementsByClassName("menu")[0].style.top="-3%";
+  document.getElementsByClassName("menu")[0].style.top="-5%";
 }
 
