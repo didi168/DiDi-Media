@@ -273,7 +273,7 @@ left: 0;
 body{
   overflow-x: hidden;
   padding: 0 ;
-  width:105%;
+  width:100%;
   background:var(--background) ;
   margin: 0 ;
   font-family:Poppins;
