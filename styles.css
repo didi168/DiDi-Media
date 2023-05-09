@@ -17,6 +17,7 @@
   --uib-color: #FFC709;
 }
 html{
+ overflow-x: hidden;
   scroll-behavior: smooth;
   
 }
@@ -270,15 +271,16 @@ left: 0;
 
 body{
   overflow-x: hidden;
-  padding: 0 auto;
-  background:var(--background) ;
-  margin: 0 auto;
+  padding: 0 ;
+  width:95%;
+  background:red ;
+  margin: 0 ;
   font-family:Poppins;
 }
 
 main{
-  padding: 0px 10px 0px 5px  ;
-  margin: 0 auto;
+  padding: 0 ;
+  margin: 0 ;
   width: 100%;
   font-family:Poppins;
   position: relative;
