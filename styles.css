@@ -249,8 +249,8 @@ left: 0;
 
 }
  #menu a:nth-of-type(4){
-  height: fit-content;
-  width: fit-content;
+  height: auto;
+  width: auto;
   border: none;
   border-radius: 5px;
   padding: 10px 10px 10px 10x;
