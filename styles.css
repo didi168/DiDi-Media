@@ -163,7 +163,7 @@ html{
   text-decoration: none;
   color: white;
   right: 1%;
-  background-color: var(--red);
+  background-color: var(--yellow);
 
 }
 
@@ -617,7 +617,7 @@ main #fourthSection .grid .webDiv img{
 
 footer{
   height: fit-content;
-  background: orange;
+  background: var(--red);
   width: 100%;
   margin:0;
   padding: 20px 20px 20px 20px ;
