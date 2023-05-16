@@ -55,7 +55,7 @@ html{
   z-index: 1000;
   position: fixed;
   top: 45%;
-  left: 45%;
+  left: 50%;
    align-items: center;
   justify-content: flex-start;
   height: var(--uib-size);
