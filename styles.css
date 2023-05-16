@@ -694,6 +694,9 @@ footer h4{
     width: 20%;
     height: auto;
   }
+  .dot-spinner {
+    left:45%;
+  }
   #menu{
     display: flex;
     top: -5%;
