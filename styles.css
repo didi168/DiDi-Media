@@ -197,7 +197,7 @@ html{
   background: var(--red);
   transform: rotateZ(30deg);
   position: absolute;
-  top: 35%;
+  top: 1220px;
   z-index: -1;
   left: -10%;
 }
@@ -208,7 +208,7 @@ html{
   background: var(--red);
   transform: rotateZ(30deg);
   position: absolute;
-  top: 41%;
+  top: 1530px;
   z-index: -1;
   left: -10%;
 }
