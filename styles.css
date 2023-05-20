@@ -233,7 +233,7 @@ html{
   background: var(--red);
   transform: rotateZ(-34deg);
   position: absolute;
-  top: 35%;
+  top: 1200px;
   z-index: -1;
   right: -10%;
 }
@@ -244,7 +244,7 @@ html{
   background: var(--red);
   transform: rotateZ(-34deg);
   position: absolute;
-  top: 41%;
+  top: 1500px;
   z-index: -1;
   right: -10%;
 }
