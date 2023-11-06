@@ -659,7 +659,7 @@ footer h4{
     padding: 0px 0px 0px 0px;
   }
   main #firstSection{
-    width: 98%;
+    width: 96%;
     text-align: center;
     padding: 10% 0px 0px 0px ;
     margin: 0 auto;
@@ -667,7 +667,6 @@ footer h4{
   main #firstSection p{
     font-size: 100%;
     width: 90% ;
-    background-color: red;
     text-align: center;
   }
   main #firstSection h1{
