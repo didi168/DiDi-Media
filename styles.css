@@ -73,6 +73,11 @@ html{
   right: 1%;
   background-color: var(--yellow);
 
+
+}
+#top:hover{
+  background-color: #ffb109;
+  transition: .5s;
 }
 
 #svg:nth-of-type(1){
