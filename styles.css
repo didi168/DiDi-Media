@@ -149,7 +149,7 @@ top: 0;
 left: 0;
   background: transparent;
   height: fit-content;
-  padding: 20px 0px 10px 8% ;
+  padding: 10px 0px 10px 8% ;
   margin: 0 auto;
   display: none;
   gap: 10px;
@@ -227,7 +227,7 @@ header a{
 
 }
 header a:hover{
-  color: var(--yellow);
+  color: #ffb109;
   transition: .3s;
   
 }
@@ -244,7 +244,7 @@ main #firstSection{
   width: 100%;
   height: 90vh;
   text-align: center;
-  padding: 10px 0px 10px 0px;
+  padding: 25px 0px 10px 0px;
 }
 #firstSection div{
   display: flex;
@@ -281,6 +281,7 @@ main #firstSection{
 }
 #firstSection a:hover{
   box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.678);
+ background-color: #ffb109;
   transition: .5s;
 }
 #firstSection p{
@@ -396,7 +397,7 @@ main #thirdSection .skills div{
 }
 
 main #thirdSection h3{
-  color:#07620c;
+  color:#023205;
   font-size: 150%;
   width: 100%;
   text-align: center;
@@ -626,9 +627,14 @@ footer h4{
   #top{
     position: fixed;
     bottom: 4%;
+
     font-size: 100%;
     display: block;
     right: 4%;
+  }
+  #top:hover{
+    background-color: #ffb109;
+    transition: .5s;
   }
   header{
     padding: 10px 10px 0px 10px ;
@@ -649,7 +655,7 @@ footer h4{
   main #firstSection{
     width: 100%;
     text-align: center;
-    padding: 7% 0px 0px 0px ;
+    padding: 10% 0px 0px 0px ;
     margin: 0 auto;
   }
   main #firstSection p{
