@@ -318,12 +318,12 @@ main #firstSection{
 }
 #firstSection h1{
   font-size: 400%;
-  font-family:  Arvo;
+  font-family:  Poppins;
   margin: 10px 0px 20px 0px  ;
 }
 #firstSection h3{
   font-size: 300%;
-  font-family: serif;
+  font-family: Poppins;
   margin: 0px 0px 20px 0px  ;
 }
 #firstSection span:nth-of-type(1){
@@ -617,7 +617,7 @@ footer h4{
 
 
 /* Media Quaries */
-@media screen and (max-width:900px) {
+@media screen and (max-width:1050px) {
   body{
     overflow-x: hidden;
     margin: 0 auto;
@@ -664,6 +664,11 @@ footer h4{
     background-color: #ffb109;
     transition: .5s;
   }
+  .logoDiv{
+    width: 50%;
+    height: 100%;
+    justify-content: flex-start;
+  }
   header{
     padding: 10px 10px 0px 10px ;
     margin: 0 auto;
@@ -683,26 +688,30 @@ footer h4{
   main #firstSection{
     width: 96%;
     text-align: center;
-    padding: 10% 0px 0px 0px ;
+    padding: 20% 0px 0px 0px ;
     margin: 0 auto;
   }
   main #firstSection p{
     font-size: 100%;
     width: 90% ;
     text-align: center;
+    
   }
   main #firstSection h1{
-    font-size: 300%;
+    margin-top: -15px;
+    font-size: 250%;
     width: 100% ;
+    line-height: 115%;
     text-align: center;
   }
   main #firstSection h3{
-    font-size: 250%;
+    font-size: 200%;
     width: 100% ;
     text-align: center;
+    margin-top: -10px;
   }
   main #firstSection .inputdiv{
-    font-size: 70%;
+    font-size: 80%;
     width: 100% ;
     margin: 0 auto;
   }
