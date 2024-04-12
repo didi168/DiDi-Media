@@ -35,6 +35,28 @@ html{
     transform: translateX(0);
     filter: blur(0);
 }
+.logoDiv{
+  width: 20%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+    
+}
+.logoDiv #newLogo{
+  width: 20%;
+  height:auto;
+  margin: 0;
+  padding: 0;
+}
+.logoDiv h1{
+  font-size: 160%;
+  font-weight: 650;
+  margin: 0;
+  padding: 0;
+}
 #nav-bar{
   width: 35px;
   height: 25px;
@@ -226,7 +248,7 @@ header div{
 }
 header a{
   font-size: 120%;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
   color: black;
 
