@@ -7,7 +7,7 @@
 
 :root {
     --yellow:#014504;
-    --orange:#FFA500;
+    --orange:#FF5F32;
     --darkblue:#0F0058;
     --white:#DEDEDE;
     --white:whitesmoke;
@@ -106,7 +106,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #ffb109;
+    color: #FF5F32;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -213,13 +213,15 @@ section .title::after{
     display: flex;
     justify-content: center; 
     align-items: center;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/Mainbanner.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Nunito', sans-serif;
+    background-color: rgba(0, 0, 0, 0.519);
+    background-blend-mode: soft-light;
 }
 .home .max-width{
   width: 100%;
@@ -336,12 +338,13 @@ section .title::after{
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 50px 25px;
+    padding: 50px 30px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: var(--orange);
+    /* background: var(--orange); */
+    background:#ff5e32dd ;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -447,6 +450,8 @@ section .title::after{
 /* teams section styling */
 .teams .title::after{
     content: "- who i have worked for -";
+  width: 100%;
+  margin-top: 30px ;
 }
 
 .teams .carousel .card{
@@ -834,6 +839,8 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
+ 
+
     .menu-btn{
         display: block;
         z-index: 999;
@@ -957,8 +964,9 @@ footer span a:hover{
   
   }
    #fourthSection > h1{
-    font-size: 250%;
+    font-size: 200%;
     width: 100%;
+    margin-top: 50px;
     text-align: center;
   }
    #fourthSection .headdiv{
@@ -1047,4 +1055,5 @@ footer span a:hover{
     margin: 0px 0px 0px 0px ;
     margin: 0px 0px 0px 0px ;
   }
+
 }

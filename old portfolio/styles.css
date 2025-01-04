@@ -437,9 +437,10 @@ main #fourthSection{
   padding: 20px 0px 20px 0px ;
 }
 main #fourthSection h1{
-  font-size: 300%;
+  font-size: 250%;
   font-weight: bold;
   width: 100%;
+  margin-top: 50px;
   text-align: center;
   font-family:var(--font1) ;
 } 
@@ -787,7 +788,7 @@ main #fourthSection {
 
 }
 main #fourthSection > h1{
-  font-size: 250%;
+  font-size: 200%;
   width: 100%;
   text-align: center;
 }
