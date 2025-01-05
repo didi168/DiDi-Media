@@ -75,7 +75,24 @@ $(document).ready(function(){
 
 
 
+const video1 = document.getElementById('video1');
+const video2 = document.getElementById('video2');
 
+// Set playback speed
+video1.playbackRate = 1.4; // Increase speed to 1.5x
+video2.playbackRate = 1.4; // Increase speed to 1.5x
+
+video1.addEventListener('ended', () => {
+    video1.style.display = 'none';
+    video2.style.display = 'block';
+    video2.play();
+});
+
+video2.addEventListener('ended', () => {
+    video2.style.display = 'none';
+    video1.style.display = 'block';
+    video1.play();
+});
 
 
 

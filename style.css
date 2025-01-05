@@ -447,11 +447,27 @@ section .title::after{
     width: 90%;
 }
 
+.skills-content .right {
+      display: flex;
+     flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.skills-content .right h1 {
+    margin-block: 30px;
+}
+.skills-content .right img{
+    width: 30%;
+    margin: 5px;
+
+}
+
 /* teams section styling */
 .teams .title::after{
     content: "- who i have worked for -";
   width: 100%;
-  margin-top: 30px ;
+  margin-top: 20px ;
 }
 
 .teams .carousel .card{
@@ -854,9 +870,10 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
-        text-align: center;
-        padding-top: 80px;
+        background: #010010;
+        text-align: left;
+        padding-top: 100px;
+        padding-left: 10%;
         transition: all 0.3s ease;
     }
     .navbar .menu.active{
@@ -864,6 +881,14 @@ footer span a:hover{
     }
     .navbar .menu li{
         display: block;
+        margin-block: 20px;
+        width: 100%;
+      
+    }
+    .navbar .menu i{
+        font-size: 25px;
+        margin-inline: 15px;
+        color: white;
     }
     .navbar .menu li a{
         display: inline-block;
