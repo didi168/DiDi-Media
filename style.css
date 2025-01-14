@@ -41,9 +41,13 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: Josefin Sans;
+    scroll-behavior:smooth;
 }
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
+}
+body{
+    scroll-behavior:smooth;
 }
 
 /* custom scroll bar */
@@ -221,7 +225,7 @@ section .title::after{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Nunito', sans-serif;
-    background-color: rgba(0, 0, 0, 0.519);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: soft-light;
 }
 .home .max-width{
