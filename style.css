@@ -230,9 +230,10 @@ nav.scrolled {
     gap: 1.5rem;
     align-items: center;
     justify-content: center;
+      /* padding: 2px 4px; */
 }
 .btn {
-    padding: 1rem 2.5rem;
+    padding: 10px 15px;
     border: none;
     border-radius: 50px;
     font-size: 1rem;
