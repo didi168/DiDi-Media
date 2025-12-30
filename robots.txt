@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://didi168.github.io/DiDi-Media/sitemap.xml
