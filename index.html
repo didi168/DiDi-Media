@@ -515,7 +515,7 @@ Invest with confidence.
                     </div>
                 </div>
 
-                                  <div class="project-card">
+                <div class="project-card">
                     <div class="project-image">
                        <img src="./WEB/weeyba.png" alt="Weeyba">
                     </div>
@@ -532,6 +532,42 @@ Invest with confidence.
                             Built with Next.js and TypeScript for optimal performance and security.
                         </p>
                         <a href="https://front-end-weeyba.vercel.app/" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                       <img src="./WEB/jmass accounting.png" alt="JMASS Accounting">
+                    </div>
+                    <div class="project-content">
+                        <h3>JMASS Accounting</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <p>
+                            Professional website for an accounting firm, providing streamlined financial services and client management.
+                        </p>
+                        <a href="#" target="_blank" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                       <img src="./WEB/the order room.png" alt="The Order Room">
+                    </div>
+                    <div class="project-content">
+                        <h3>The Order Room</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <p>
+                            Elegant interior design platform showcasing expertise in spatial planning and aesthetic transformations.
+                        </p>
+                        <a href="#" target="_blank" class="btn btn-primary">View Project</a>
                     </div>
                 </div>
             </div>
@@ -669,15 +705,22 @@ Invest with confidence.
                 </div>
             </div>
 
+
             <div class="design-item" data-category="fliers">
                 <div class="design-card">
-                    <img src="./fliers/logo.png" alt="Social Media Flier">
+                    <img src="./fliers/14.jpg" alt="Social Media Flier">
                 </div>
             </div>
 
             <div class="design-item" data-category="fliers">
                 <div class="design-card">
-                    <img src="./fliers/14.jpg" alt="Social Media Flier">
+                    <img src="./fliers/round 2.png" alt="Social Media Flier - Round 2">
+                </div>
+            </div>
+
+            <div class="design-item" data-category="fliers">
+                <div class="design-card">
+                    <img src="./fliers/project szn.png" alt="Social Media Flier - Project SZN">
                 </div>
             </div>
 
@@ -786,7 +829,7 @@ Invest with confidence.
                 </div>
                 
          <div class="contact-form">
-  <form action="https://formsubmit.co/divineoko2018@gmail.com" method="POST">
+  <form id="contactForm" action="https://formsubmit.co/divineoko2018@gmail.com" method="POST">
 
     <div class="form-group">
       <input type="text" name="name" placeholder="Your Name" required>
@@ -982,11 +1025,14 @@ document.addEventListener('mousemove', (e) => {
         });
         
         // Form submission
-        document.getElementById('contactForm').addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
-            e.target.reset();
-        });
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                // Removing e.preventDefault() to allow FormSubmit to work
+                // e.preventDefault();
+                // alert('Thank you for your message! I will get back to you soon.');
+            });
+        }
         
         // Smooth scroll for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
