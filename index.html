@@ -1084,49 +1084,9 @@ document.addEventListener('mousemove', (e) => {
             statsObserver.observe(statsSection);
         }
         
-        // Setup Premium Fluid Skeleton System
+        // Setup Global Native Lazy Loading
         const lazyImages = document.querySelectorAll('img');
         lazyImages.forEach(img => img.setAttribute('loading', 'lazy'));
-
-        const skeletonTargets = document.querySelectorAll('.stat-card, .skill-card, .project-card, .design-card, .contact-info, .timeline-content, .about-image');
-        skeletonTargets.forEach(el => {
-            // Inject dynamic skeleton overlay layer
-            const overlay = document.createElement('div');
-            overlay.className = 'skeleton-overlay';
-            // Ensure container can anchor absolute overlay
-            if (window.getComputedStyle(el).position === 'static') {
-                el.style.position = 'relative';
-            }
-            el.appendChild(overlay);
-
-            // Tie skeleton fade-out to child images loading
-            const childImages = el.querySelectorAll('img');
-            let loadedCount = 0;
-
-            if (childImages.length === 0) {
-                // No images needed, resolve gracefully on window load
-                window.addEventListener('load', () => setTimeout(() => overlay.style.opacity = '0', 600));
-            } else {
-                const checkImages = () => {
-                    loadedCount++;
-                    if (loadedCount === childImages.length) {
-                        setTimeout(() => overlay.style.opacity = '0', 400); // Wait 400ms after final frame resolves
-                    }
-                };
-
-                childImages.forEach(img => {
-                    if (img.complete) {
-                        checkImages();
-                    } else {
-                        img.addEventListener('load', checkImages);
-                        img.addEventListener('error', checkImages); // Fallback sweep removal
-                    }
-                });
-            }
-
-            // Cleanup DOM after visual transition
-            overlay.addEventListener('transitionend', () => overlay.remove());
-        });
 
         // Setup Pro Cinematic Reveal System
         
